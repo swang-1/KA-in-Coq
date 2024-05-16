@@ -18,10 +18,10 @@ Notation "x [+ ka ] y "  := ((sr_plus ka) x y)
   denote multiplication. This also happens to align nicely with the notaion
   for relational composition for relational algebras. *)
 Notation "x [; ka ] y "  := ((sr_mul ka) x y) 
-  (at level 50, left associativity).
+  (at level 45, left associativity).
 
 Notation " y [* ka ] "  := ((star ka) y) 
-  (at level 60, right associativity).
+  (at level 50, left associativity).
 
 (* Before defining the star axioms, we need to define the natural partial
    order for idempotent semirings: *)
