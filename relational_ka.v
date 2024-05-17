@@ -318,4 +318,26 @@ Proof.
     exists x1. split. apply H0. simpl in H1. apply H1.
 Qed.
 
+Definition relational_KA_theory (X : Type) : kleene_algebra_theory (RKA X) :=
+  {|
+    (* Idempotent semiring axioms *)
+    sr_plus_assoc := rel_plus_assoc X; 
+    sr_mul_assoc := rel_mul_assoc X; 
+    sr_plus_comm := rel_plus_comm X; 
+    sr_add_zero := rel_add_zero X;
+    sr_idempotent := rel_idempotent X;
+    sr_id_l := rel_id_l X;
+    sr_id_r := rel_id_r X; 
+    sr_null_l := rel_null_l X; 
+    sr_null_r := rel_null_r X;
+    sr_distr_l := rel_distr_l X; 
+    sr_distr_r := rel_distr_r X; 
+
+    (* Star Axioms *)
+    star_axiom_1 := rel_star_1 X; 
+    star_axiom_2 := rel_star_2 X; 
+    star_axiom_3 := rel_star_3 X; 
+    star_axiom_4 := rel_star_4 X; 
+  |}.
+
 
