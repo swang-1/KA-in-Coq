@@ -1,0 +1,1290 @@
+DIGEST af6e216cab43884c326a9b17c3bef56c
+Fproject.theories
+R24:29 Coq.Setoids.Setoid <> <> lib
+constr 123:141 <> make_kleene_algebra
+rec 98:111 <> kleene_algebra
+proj 148:154 <> carrier
+proj 166:172 <> sr_plus
+proj 210:215 <> sr_mul
+proj 252:255 <> star
+proj 282:285 <> null
+proj 300:301 <> id
+R183:186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R176:182 project.theories <> carrier:2 meth
+R194:197 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R187:193 project.theories <> carrier:2 meth
+R198:204 project.theories <> carrier:2 meth
+R226:229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R219:225 project.theories <> carrier:2 meth
+R237:240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R230:236 project.theories <> carrier:2 meth
+R241:247 project.theories <> carrier:2 meth
+R266:269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R259:265 project.theories <> carrier:2 meth
+R270:276 project.theories <> carrier:2 meth
+R289:295 project.theories <> carrier:2 meth
+R305:311 project.theories <> carrier:2 meth
+R347:353 project.theories <> sr_plus proj
+not 326:326 <> :::x_'[+'_x_']'_x
+R636:641 project.theories <> sr_mul proj
+not 615:615 <> :::x_'[;'_x_']'_x
+R720:723 project.theories <> star proj
+not 700:700 <> :::x_'[*'_x_']'
+def 894:906 <> partial_order
+R914:927 project.theories <> kleene_algebra rec
+binder 909:910 <> KA:8
+R937:943 project.theories <> carrier proj
+R945:946 project.theories <> KA:8 var
+binder 931:931 <> x:9
+binder 933:933 <> y:10
+R971:973 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R962:965 project.theories <> :::x_'[+'_x_']'_x not
+R968:969 project.theories <> :::x_'[+'_x_']'_x not
+R966:967 project.theories <> KA:8 var
+R961:961 project.theories <> x:9 var
+R970:970 project.theories <> y:10 var
+R974:974 project.theories <> y:10 var
+R1007:1019 project.theories <> partial_order def
+not 987:987 <> :::x_'['_'<='_x_']'_x
+constr 1124:1149 <> make_kleene_algebra_theory
+rec 1070:1090 <> kleene_algebra_theory
+proj 1191:1203 <> sr_plus_assoc
+proj 1290:1301 <> sr_mul_assoc
+proj 1385:1396 <> sr_plus_comm
+proj 1458:1468 <> sr_add_zero
+proj 1528:1540 <> sr_idempotent
+proj 1592:1598 <> sr_id_l
+proj 1657:1663 <> sr_id_r
+proj 1722:1730 <> sr_null_l
+proj 1797:1805 <> sr_null_r
+proj 1874:1883 <> sr_distr_l
+proj 1980:1989 <> sr_distr_r
+proj 2106:2117 <> star_axiom_1
+proj 2204:2215 <> star_axiom_2
+proj 2303:2314 <> star_axiom_3
+proj 2416:2427 <> star_axiom_4
+R1098:1111 project.theories <> kleene_algebra rec
+binder 1093:1094 <> ka:11
+R1223:1229 project.theories <> carrier proj
+R1231:1232 project.theories <> ka:11 var
+binder 1215:1215 <> x:13
+binder 1217:1217 <> y:14
+binder 1219:1219 <> z:15
+R1260:1262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1242:1244 project.theories <> :::x_'[+'_x_']'_x not
+R1247:1249 project.theories <> :::x_'[+'_x_']'_x not
+R1259:1259 project.theories <> :::x_'[+'_x_']'_x not
+R1245:1246 project.theories <> ka:11 var
+R1241:1241 project.theories <> x:13 var
+R1251:1253 project.theories <> :::x_'[+'_x_']'_x not
+R1256:1257 project.theories <> :::x_'[+'_x_']'_x not
+R1254:1255 project.theories <> ka:11 var
+R1250:1250 project.theories <> y:14 var
+R1258:1258 project.theories <> z:15 var
+R1263:1263 project.theories <> :::x_'[+'_x_']'_x not
+R1273:1276 project.theories <> :::x_'[+'_x_']'_x not
+R1279:1280 project.theories <> :::x_'[+'_x_']'_x not
+R1277:1278 project.theories <> ka:11 var
+R1265:1267 project.theories <> :::x_'[+'_x_']'_x not
+R1270:1271 project.theories <> :::x_'[+'_x_']'_x not
+R1268:1269 project.theories <> ka:11 var
+R1264:1264 project.theories <> x:13 var
+R1272:1272 project.theories <> y:14 var
+R1281:1281 project.theories <> z:15 var
+R1321:1327 project.theories <> carrier proj
+R1329:1330 project.theories <> ka:11 var
+binder 1313:1313 <> x:17
+binder 1315:1315 <> y:18
+binder 1317:1317 <> z:19
+R1357:1359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1339:1341 project.theories <> :::x_'[;'_x_']'_x not
+R1344:1346 project.theories <> :::x_'[;'_x_']'_x not
+R1356:1356 project.theories <> :::x_'[;'_x_']'_x not
+R1342:1343 project.theories <> ka:11 var
+R1338:1338 project.theories <> x:17 var
+R1348:1350 project.theories <> :::x_'[;'_x_']'_x not
+R1353:1354 project.theories <> :::x_'[;'_x_']'_x not
+R1351:1352 project.theories <> ka:11 var
+R1347:1347 project.theories <> y:18 var
+R1355:1355 project.theories <> z:19 var
+R1360:1360 project.theories <> :::x_'[;'_x_']'_x not
+R1370:1373 project.theories <> :::x_'[;'_x_']'_x not
+R1376:1377 project.theories <> :::x_'[;'_x_']'_x not
+R1374:1375 project.theories <> ka:11 var
+R1362:1364 project.theories <> :::x_'[;'_x_']'_x not
+R1367:1368 project.theories <> :::x_'[;'_x_']'_x not
+R1365:1366 project.theories <> ka:11 var
+R1361:1361 project.theories <> x:17 var
+R1369:1369 project.theories <> y:18 var
+R1378:1378 project.theories <> z:19 var
+R1414:1420 project.theories <> carrier proj
+R1422:1423 project.theories <> ka:11 var
+binder 1408:1408 <> x:21
+binder 1410:1410 <> y:22
+R1440:1442 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1432:1434 project.theories <> :::x_'[+'_x_']'_x not
+R1437:1438 project.theories <> :::x_'[+'_x_']'_x not
+R1435:1436 project.theories <> ka:11 var
+R1431:1431 project.theories <> x:21 var
+R1439:1439 project.theories <> y:22 var
+R1444:1446 project.theories <> :::x_'[+'_x_']'_x not
+R1449:1450 project.theories <> :::x_'[+'_x_']'_x not
+R1447:1448 project.theories <> ka:11 var
+R1443:1443 project.theories <> y:22 var
+R1451:1451 project.theories <> x:21 var
+R1484:1490 project.theories <> carrier proj
+R1492:1493 project.theories <> ka:11 var
+binder 1480:1480 <> x:24
+R1518:1520 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1502:1504 project.theories <> :::x_'[+'_x_']'_x not
+R1507:1509 project.theories <> :::x_'[+'_x_']'_x not
+R1517:1517 project.theories <> :::x_'[+'_x_']'_x not
+R1505:1506 project.theories <> ka:11 var
+R1501:1501 project.theories <> x:24 var
+R1510:1513 project.theories <> null proj
+R1515:1516 project.theories <> ka:11 var
+R1521:1521 project.theories <> x:24 var
+R1556:1562 project.theories <> carrier proj
+R1564:1565 project.theories <> ka:11 var
+binder 1552:1552 <> x:26
+R1582:1584 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1574:1576 project.theories <> :::x_'[+'_x_']'_x not
+R1579:1580 project.theories <> :::x_'[+'_x_']'_x not
+R1577:1578 project.theories <> ka:11 var
+R1573:1573 project.theories <> x:26 var
+R1581:1581 project.theories <> x:26 var
+R1585:1585 project.theories <> x:26 var
+R1614:1620 project.theories <> carrier proj
+R1622:1623 project.theories <> ka:11 var
+binder 1610:1610 <> x:28
+R1631:1631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1647:1650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1632:1632 project.theories <> :::x_'[;'_x_']'_x not
+R1638:1641 project.theories <> :::x_'[;'_x_']'_x not
+R1644:1645 project.theories <> :::x_'[;'_x_']'_x not
+R1642:1643 project.theories <> ka:11 var
+R1633:1634 project.theories <> id proj
+R1636:1637 project.theories <> ka:11 var
+R1646:1646 project.theories <> x:28 var
+R1651:1651 project.theories <> x:28 var
+R1679:1685 project.theories <> carrier proj
+R1687:1688 project.theories <> ka:11 var
+binder 1675:1675 <> x:30
+R1696:1696 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1712:1715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1698:1700 project.theories <> :::x_'[;'_x_']'_x not
+R1703:1705 project.theories <> :::x_'[;'_x_']'_x not
+R1711:1711 project.theories <> :::x_'[;'_x_']'_x not
+R1701:1702 project.theories <> ka:11 var
+R1697:1697 project.theories <> x:30 var
+R1706:1707 project.theories <> id proj
+R1709:1710 project.theories <> ka:11 var
+R1716:1716 project.theories <> x:30 var
+R1746:1752 project.theories <> carrier proj
+R1754:1755 project.theories <> ka:11 var
+binder 1742:1742 <> x:32
+R1763:1763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1781:1784 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1764:1764 project.theories <> :::x_'[;'_x_']'_x not
+R1772:1775 project.theories <> :::x_'[;'_x_']'_x not
+R1778:1779 project.theories <> :::x_'[;'_x_']'_x not
+R1776:1777 project.theories <> ka:11 var
+R1765:1768 project.theories <> null proj
+R1770:1771 project.theories <> ka:11 var
+R1780:1780 project.theories <> x:32 var
+R1785:1788 project.theories <> null proj
+R1790:1791 project.theories <> ka:11 var
+R1821:1827 project.theories <> carrier proj
+R1829:1830 project.theories <> ka:11 var
+binder 1817:1817 <> x:34
+R1838:1838 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1856:1859 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1840:1842 project.theories <> :::x_'[;'_x_']'_x not
+R1845:1847 project.theories <> :::x_'[;'_x_']'_x not
+R1855:1855 project.theories <> :::x_'[;'_x_']'_x not
+R1843:1844 project.theories <> ka:11 var
+R1839:1839 project.theories <> x:34 var
+R1848:1851 project.theories <> null proj
+R1853:1854 project.theories <> ka:11 var
+R1860:1863 project.theories <> null proj
+R1865:1866 project.theories <> ka:11 var
+R1903:1909 project.theories <> carrier proj
+R1911:1912 project.theories <> ka:11 var
+binder 1895:1895 <> x:36
+binder 1897:1897 <> y:37
+binder 1899:1899 <> z:38
+R1921:1921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1941:1945 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1923:1925 project.theories <> :::x_'[;'_x_']'_x not
+R1928:1930 project.theories <> :::x_'[;'_x_']'_x not
+R1940:1940 project.theories <> :::x_'[;'_x_']'_x not
+R1926:1927 project.theories <> ka:11 var
+R1922:1922 project.theories <> x:36 var
+R1932:1934 project.theories <> :::x_'[+'_x_']'_x not
+R1937:1938 project.theories <> :::x_'[+'_x_']'_x not
+R1935:1936 project.theories <> ka:11 var
+R1931:1931 project.theories <> y:37 var
+R1939:1939 project.theories <> z:38 var
+R1946:1946 project.theories <> :::x_'[+'_x_']'_x not
+R1956:1959 project.theories <> :::x_'[+'_x_']'_x not
+R1962:1964 project.theories <> :::x_'[+'_x_']'_x not
+R1974:1974 project.theories <> :::x_'[+'_x_']'_x not
+R1960:1961 project.theories <> ka:11 var
+R1948:1950 project.theories <> :::x_'[;'_x_']'_x not
+R1953:1954 project.theories <> :::x_'[;'_x_']'_x not
+R1951:1952 project.theories <> ka:11 var
+R1947:1947 project.theories <> x:36 var
+R1955:1955 project.theories <> y:37 var
+R1966:1968 project.theories <> :::x_'[;'_x_']'_x not
+R1971:1972 project.theories <> :::x_'[;'_x_']'_x not
+R1969:1970 project.theories <> ka:11 var
+R1965:1965 project.theories <> x:36 var
+R1973:1973 project.theories <> z:38 var
+R2009:2015 project.theories <> carrier proj
+R2017:2018 project.theories <> ka:11 var
+binder 2001:2001 <> x:40
+binder 2003:2003 <> y:41
+binder 2005:2005 <> z:42
+R2027:2027 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2047:2051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2028:2028 project.theories <> :::x_'[;'_x_']'_x not
+R2038:2041 project.theories <> :::x_'[;'_x_']'_x not
+R2044:2045 project.theories <> :::x_'[;'_x_']'_x not
+R2042:2043 project.theories <> ka:11 var
+R2030:2032 project.theories <> :::x_'[+'_x_']'_x not
+R2035:2036 project.theories <> :::x_'[+'_x_']'_x not
+R2033:2034 project.theories <> ka:11 var
+R2029:2029 project.theories <> x:40 var
+R2037:2037 project.theories <> y:41 var
+R2046:2046 project.theories <> z:42 var
+R2052:2052 project.theories <> :::x_'[+'_x_']'_x not
+R2062:2065 project.theories <> :::x_'[+'_x_']'_x not
+R2068:2070 project.theories <> :::x_'[+'_x_']'_x not
+R2080:2080 project.theories <> :::x_'[+'_x_']'_x not
+R2066:2067 project.theories <> ka:11 var
+R2054:2056 project.theories <> :::x_'[;'_x_']'_x not
+R2059:2060 project.theories <> :::x_'[;'_x_']'_x not
+R2057:2058 project.theories <> ka:11 var
+R2053:2053 project.theories <> x:40 var
+R2061:2061 project.theories <> z:42 var
+R2072:2074 project.theories <> :::x_'[;'_x_']'_x not
+R2077:2078 project.theories <> :::x_'[;'_x_']'_x not
+R2075:2076 project.theories <> ka:11 var
+R2071:2071 project.theories <> y:41 var
+R2079:2079 project.theories <> z:42 var
+R2133:2139 project.theories <> carrier proj
+R2141:2142 project.theories <> ka:11 var
+binder 2129:2129 <> x:44
+R2183:2187 project.theories <> :::x_'['_'<='_x_']'_x not
+R2190:2191 project.theories <> :::x_'['_'<='_x_']'_x not
+R2188:2189 project.theories <> ka:11 var
+R2150:2150 project.theories <> :::x_'[+'_x_']'_x not
+R2156:2159 project.theories <> :::x_'[+'_x_']'_x not
+R2162:2164 project.theories <> :::x_'[+'_x_']'_x not
+R2182:2182 project.theories <> :::x_'[+'_x_']'_x not
+R2160:2161 project.theories <> ka:11 var
+R2151:2152 project.theories <> id proj
+R2154:2155 project.theories <> ka:11 var
+R2166:2168 project.theories <> :::x_'[;'_x_']'_x not
+R2171:2173 project.theories <> :::x_'[;'_x_']'_x not
+R2181:2181 project.theories <> :::x_'[;'_x_']'_x not
+R2169:2170 project.theories <> ka:11 var
+R2165:2165 project.theories <> x:44 var
+R2175:2177 project.theories <> :::x_'[*'_x_']' not
+R2180:2180 project.theories <> :::x_'[*'_x_']' not
+R2178:2179 project.theories <> ka:11 var
+R2174:2174 project.theories <> x:44 var
+R2193:2195 project.theories <> :::x_'[*'_x_']' not
+R2198:2198 project.theories <> :::x_'[*'_x_']' not
+R2196:2197 project.theories <> ka:11 var
+R2192:2192 project.theories <> x:44 var
+R2231:2237 project.theories <> carrier proj
+R2239:2240 project.theories <> ka:11 var
+binder 2227:2227 <> x:46
+R2281:2286 project.theories <> :::x_'['_'<='_x_']'_x not
+R2289:2290 project.theories <> :::x_'['_'<='_x_']'_x not
+R2287:2288 project.theories <> ka:11 var
+R2248:2248 project.theories <> :::x_'[+'_x_']'_x not
+R2254:2257 project.theories <> :::x_'[+'_x_']'_x not
+R2260:2262 project.theories <> :::x_'[+'_x_']'_x not
+R2280:2280 project.theories <> :::x_'[+'_x_']'_x not
+R2258:2259 project.theories <> ka:11 var
+R2249:2250 project.theories <> id proj
+R2252:2253 project.theories <> ka:11 var
+R2263:2263 project.theories <> :::x_'[;'_x_']'_x not
+R2271:2274 project.theories <> :::x_'[;'_x_']'_x not
+R2277:2278 project.theories <> :::x_'[;'_x_']'_x not
+R2275:2276 project.theories <> ka:11 var
+R2265:2267 project.theories <> :::x_'[*'_x_']' not
+R2270:2270 project.theories <> :::x_'[*'_x_']' not
+R2268:2269 project.theories <> ka:11 var
+R2264:2264 project.theories <> x:46 var
+R2279:2279 project.theories <> x:46 var
+R2292:2294 project.theories <> :::x_'[*'_x_']' not
+R2297:2297 project.theories <> :::x_'[*'_x_']' not
+R2295:2296 project.theories <> ka:11 var
+R2291:2291 project.theories <> x:46 var
+R2334:2340 project.theories <> carrier proj
+R2342:2343 project.theories <> ka:11 var
+binder 2326:2326 <> a:48
+binder 2328:2328 <> b:49
+binder 2330:2330 <> x:50
+R2380:2383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2370:2374 project.theories <> :::x_'['_'<='_x_']'_x not
+R2377:2378 project.theories <> :::x_'['_'<='_x_']'_x not
+R2375:2376 project.theories <> ka:11 var
+R2352:2354 project.theories <> :::x_'[+'_x_']'_x not
+R2357:2359 project.theories <> :::x_'[+'_x_']'_x not
+R2369:2369 project.theories <> :::x_'[+'_x_']'_x not
+R2355:2356 project.theories <> ka:11 var
+R2351:2351 project.theories <> b:49 var
+R2361:2363 project.theories <> :::x_'[;'_x_']'_x not
+R2366:2367 project.theories <> :::x_'[;'_x_']'_x not
+R2364:2365 project.theories <> ka:11 var
+R2360:2360 project.theories <> a:48 var
+R2368:2368 project.theories <> x:50 var
+R2379:2379 project.theories <> x:50 var
+R2401:2405 project.theories <> :::x_'['_'<='_x_']'_x not
+R2408:2409 project.theories <> :::x_'['_'<='_x_']'_x not
+R2406:2407 project.theories <> ka:11 var
+R2384:2384 project.theories <> :::x_'[;'_x_']'_x not
+R2392:2395 project.theories <> :::x_'[;'_x_']'_x not
+R2398:2399 project.theories <> :::x_'[;'_x_']'_x not
+R2396:2397 project.theories <> ka:11 var
+R2386:2388 project.theories <> :::x_'[*'_x_']' not
+R2391:2391 project.theories <> :::x_'[*'_x_']' not
+R2389:2390 project.theories <> ka:11 var
+R2385:2385 project.theories <> a:48 var
+R2400:2400 project.theories <> b:49 var
+R2410:2410 project.theories <> x:50 var
+R2447:2453 project.theories <> carrier proj
+R2455:2456 project.theories <> ka:11 var
+binder 2439:2439 <> a:52
+binder 2441:2441 <> b:53
+binder 2443:2443 <> x:54
+R2493:2496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2483:2487 project.theories <> :::x_'['_'<='_x_']'_x not
+R2490:2491 project.theories <> :::x_'['_'<='_x_']'_x not
+R2488:2489 project.theories <> ka:11 var
+R2465:2467 project.theories <> :::x_'[+'_x_']'_x not
+R2470:2472 project.theories <> :::x_'[+'_x_']'_x not
+R2482:2482 project.theories <> :::x_'[+'_x_']'_x not
+R2468:2469 project.theories <> ka:11 var
+R2464:2464 project.theories <> b:53 var
+R2474:2476 project.theories <> :::x_'[;'_x_']'_x not
+R2479:2480 project.theories <> :::x_'[;'_x_']'_x not
+R2477:2478 project.theories <> ka:11 var
+R2473:2473 project.theories <> x:54 var
+R2481:2481 project.theories <> a:52 var
+R2492:2492 project.theories <> x:54 var
+R2514:2518 project.theories <> :::x_'['_'<='_x_']'_x not
+R2521:2522 project.theories <> :::x_'['_'<='_x_']'_x not
+R2519:2520 project.theories <> ka:11 var
+R2498:2500 project.theories <> :::x_'[;'_x_']'_x not
+R2503:2505 project.theories <> :::x_'[;'_x_']'_x not
+R2513:2513 project.theories <> :::x_'[;'_x_']'_x not
+R2501:2502 project.theories <> ka:11 var
+R2497:2497 project.theories <> b:53 var
+R2507:2509 project.theories <> :::x_'[*'_x_']' not
+R2512:2512 project.theories <> :::x_'[*'_x_']' not
+R2510:2511 project.theories <> ka:11 var
+R2506:2506 project.theories <> a:52 var
+R2523:2523 project.theories <> x:54 var
+prf 2589:2611 <> partial_order_reflexive
+R2628:2641 project.theories <> kleene_algebra rec
+binder 2623:2624 <> KA:56
+R2653:2673 project.theories <> kleene_algebra_theory rec
+R2675:2676 project.theories <> KA:56 var
+binder 2647:2649 <> KAt:57
+R2684:2690 project.theories <> carrier proj
+R2692:2693 project.theories <> KA:56 var
+binder 2680:2680 <> x:58
+R2700:2704 project.theories <> :::x_'['_'<='_x_']'_x not
+R2707:2708 project.theories <> :::x_'['_'<='_x_']'_x not
+R2705:2706 project.theories <> KA:56 var
+R2699:2699 project.theories <> x:58 var
+R2709:2709 project.theories <> x:58 var
+R2736:2748 project.theories <> partial_order def
+R2758:2770 project.theories <> sr_idempotent proj
+R2758:2770 project.theories <> sr_idempotent proj
+prf 2795:2821 <> partial_order_antisymmetric
+R2838:2851 project.theories <> kleene_algebra rec
+binder 2833:2834 <> KA:59
+R2863:2883 project.theories <> kleene_algebra_theory rec
+R2885:2886 project.theories <> KA:59 var
+binder 2857:2859 <> KAt:60
+R2896:2902 project.theories <> carrier proj
+R2904:2905 project.theories <> KA:59 var
+binder 2890:2890 <> x:61
+binder 2892:2892 <> y:62
+R2911:2911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2923:2927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2913:2917 project.theories <> :::x_'['_'<='_x_']'_x not
+R2920:2921 project.theories <> :::x_'['_'<='_x_']'_x not
+R2918:2919 project.theories <> KA:59 var
+R2912:2912 project.theories <> x:61 var
+R2922:2922 project.theories <> y:62 var
+R2928:2928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2940:2944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2930:2934 project.theories <> :::x_'['_'<='_x_']'_x not
+R2937:2938 project.theories <> :::x_'['_'<='_x_']'_x not
+R2935:2936 project.theories <> KA:59 var
+R2929:2929 project.theories <> y:62 var
+R2939:2939 project.theories <> x:61 var
+R2946:2948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2945:2945 project.theories <> x:61 var
+R2949:2949 project.theories <> y:62 var
+R2976:2988 project.theories <> partial_order def
+R3022:3033 project.theories <> sr_plus_comm proj
+R3022:3033 project.theories <> sr_plus_comm proj
+R3022:3033 project.theories <> sr_plus_comm proj
+prf 3064:3087 <> partial_order_transitive
+R3104:3117 project.theories <> kleene_algebra rec
+binder 3099:3100 <> KA:63
+R3129:3149 project.theories <> kleene_algebra_theory rec
+R3151:3152 project.theories <> KA:63 var
+binder 3123:3125 <> KAt:64
+R3164:3170 project.theories <> carrier proj
+R3172:3173 project.theories <> KA:63 var
+binder 3156:3156 <> x:65
+binder 3158:3158 <> y:66
+binder 3160:3160 <> z:67
+R3179:3179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3191:3195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3181:3185 project.theories <> :::x_'['_'<='_x_']'_x not
+R3188:3189 project.theories <> :::x_'['_'<='_x_']'_x not
+R3186:3187 project.theories <> KA:63 var
+R3180:3180 project.theories <> x:65 var
+R3190:3190 project.theories <> y:66 var
+R3196:3196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3208:3212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3198:3202 project.theories <> :::x_'['_'<='_x_']'_x not
+R3205:3206 project.theories <> :::x_'['_'<='_x_']'_x not
+R3203:3204 project.theories <> KA:63 var
+R3197:3197 project.theories <> y:66 var
+R3207:3207 project.theories <> z:67 var
+R3214:3218 project.theories <> :::x_'['_'<='_x_']'_x not
+R3221:3222 project.theories <> :::x_'['_'<='_x_']'_x not
+R3219:3220 project.theories <> KA:63 var
+R3213:3213 project.theories <> x:65 var
+R3223:3223 project.theories <> z:67 var
+R3250:3262 project.theories <> partial_order def
+R3301:3313 project.theories <> sr_plus_assoc proj
+R3301:3313 project.theories <> sr_plus_assoc proj
+R3301:3313 project.theories <> sr_plus_assoc proj
+prf 3375:3389 <> plus_monotone_r
+R3406:3419 project.theories <> kleene_algebra rec
+binder 3401:3402 <> KA:68
+R3432:3452 project.theories <> kleene_algebra_theory rec
+R3454:3455 project.theories <> KA:68 var
+binder 3426:3428 <> KAt:69
+R3467:3473 project.theories <> carrier proj
+R3475:3476 project.theories <> KA:68 var
+binder 3459:3459 <> x:70
+binder 3461:3461 <> y:71
+binder 3463:3463 <> z:72
+R3493:3496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3483:3487 project.theories <> :::x_'['_'<='_x_']'_x not
+R3490:3491 project.theories <> :::x_'['_'<='_x_']'_x not
+R3488:3489 project.theories <> KA:68 var
+R3482:3482 project.theories <> x:70 var
+R3492:3492 project.theories <> y:71 var
+R3506:3510 project.theories <> :::x_'['_'<='_x_']'_x not
+R3513:3514 project.theories <> :::x_'['_'<='_x_']'_x not
+R3511:3512 project.theories <> KA:68 var
+R3498:3500 project.theories <> :::x_'[+'_x_']'_x not
+R3503:3504 project.theories <> :::x_'[+'_x_']'_x not
+R3501:3502 project.theories <> KA:68 var
+R3497:3497 project.theories <> x:70 var
+R3505:3505 project.theories <> z:72 var
+R3516:3518 project.theories <> :::x_'[+'_x_']'_x not
+R3521:3522 project.theories <> :::x_'[+'_x_']'_x not
+R3519:3520 project.theories <> KA:68 var
+R3515:3515 project.theories <> y:71 var
+R3523:3523 project.theories <> z:72 var
+R3550:3562 project.theories <> partial_order def
+R3585:3597 project.theories <> sr_plus_assoc proj
+R3585:3597 project.theories <> sr_plus_assoc proj
+R3585:3597 project.theories <> sr_plus_assoc proj
+R3623:3634 project.theories <> sr_plus_comm proj
+R3647:3649 project.theories <> :::x_'[+'_x_']'_x not
+R3652:3653 project.theories <> :::x_'[+'_x_']'_x not
+R3623:3634 project.theories <> sr_plus_comm proj
+R3647:3649 project.theories <> :::x_'[+'_x_']'_x not
+R3652:3653 project.theories <> :::x_'[+'_x_']'_x not
+R3697:3709 project.theories <> sr_plus_assoc proj
+R3697:3709 project.theories <> sr_plus_assoc proj
+R3697:3709 project.theories <> sr_plus_assoc proj
+R3697:3709 project.theories <> sr_plus_assoc proj
+R3697:3709 project.theories <> sr_plus_assoc proj
+R3697:3709 project.theories <> sr_plus_assoc proj
+R3745:3757 project.theories <> sr_plus_assoc proj
+R3745:3757 project.theories <> sr_plus_assoc proj
+R3745:3757 project.theories <> sr_plus_assoc proj
+R3779:3791 project.theories <> sr_idempotent proj
+R3779:3791 project.theories <> sr_idempotent proj
+R3779:3791 project.theories <> sr_idempotent proj
+prf 3829:3843 <> plus_monotone_l
+R3860:3873 project.theories <> kleene_algebra rec
+binder 3855:3856 <> KA:73
+R3886:3906 project.theories <> kleene_algebra_theory rec
+R3908:3909 project.theories <> KA:73 var
+binder 3880:3882 <> KAt:74
+R3921:3927 project.theories <> carrier proj
+R3929:3930 project.theories <> KA:73 var
+binder 3913:3913 <> x:75
+binder 3915:3915 <> y:76
+binder 3917:3917 <> z:77
+R3947:3950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3937:3941 project.theories <> :::x_'['_'<='_x_']'_x not
+R3944:3945 project.theories <> :::x_'['_'<='_x_']'_x not
+R3942:3943 project.theories <> KA:73 var
+R3936:3936 project.theories <> x:75 var
+R3946:3946 project.theories <> y:76 var
+R3960:3964 project.theories <> :::x_'['_'<='_x_']'_x not
+R3967:3968 project.theories <> :::x_'['_'<='_x_']'_x not
+R3965:3966 project.theories <> KA:73 var
+R3952:3954 project.theories <> :::x_'[+'_x_']'_x not
+R3957:3958 project.theories <> :::x_'[+'_x_']'_x not
+R3955:3956 project.theories <> KA:73 var
+R3951:3951 project.theories <> z:77 var
+R3959:3959 project.theories <> x:75 var
+R3970:3972 project.theories <> :::x_'[+'_x_']'_x not
+R3975:3976 project.theories <> :::x_'[+'_x_']'_x not
+R3973:3974 project.theories <> KA:73 var
+R3969:3969 project.theories <> z:77 var
+R3977:3977 project.theories <> y:76 var
+R4004:4016 project.theories <> partial_order def
+R4036:4048 project.theories <> sr_plus_assoc proj
+R4036:4048 project.theories <> sr_plus_assoc proj
+R4036:4048 project.theories <> sr_plus_assoc proj
+R4073:4084 project.theories <> sr_plus_comm proj
+R4073:4084 project.theories <> sr_plus_comm proj
+R4155:4157 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4137:4139 project.theories <> :::x_'[+'_x_']'_x not
+R4142:4144 project.theories <> :::x_'[+'_x_']'_x not
+R4154:4154 project.theories <> :::x_'[+'_x_']'_x not
+R4146:4148 project.theories <> :::x_'[+'_x_']'_x not
+R4151:4152 project.theories <> :::x_'[+'_x_']'_x not
+R4159:4161 project.theories <> :::x_'[+'_x_']'_x not
+R4164:4165 project.theories <> :::x_'[+'_x_']'_x not
+R4155:4157 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4137:4139 project.theories <> :::x_'[+'_x_']'_x not
+R4142:4144 project.theories <> :::x_'[+'_x_']'_x not
+R4154:4154 project.theories <> :::x_'[+'_x_']'_x not
+R4146:4148 project.theories <> :::x_'[+'_x_']'_x not
+R4151:4152 project.theories <> :::x_'[+'_x_']'_x not
+R4159:4161 project.theories <> :::x_'[+'_x_']'_x not
+R4164:4165 project.theories <> :::x_'[+'_x_']'_x not
+R4185:4197 project.theories <> sr_plus_assoc proj
+R4185:4197 project.theories <> sr_plus_assoc proj
+R4185:4197 project.theories <> sr_plus_assoc proj
+R4226:4237 project.theories <> sr_plus_comm proj
+R4226:4237 project.theories <> sr_plus_comm proj
+R4273:4285 project.theories <> sr_plus_assoc proj
+R4273:4285 project.theories <> sr_plus_assoc proj
+R4273:4285 project.theories <> sr_plus_assoc proj
+R4305:4317 project.theories <> sr_idempotent proj
+R4305:4317 project.theories <> sr_idempotent proj
+R4305:4317 project.theories <> sr_idempotent proj
+prf 4357:4370 <> mul_monotone_r
+R4387:4400 project.theories <> kleene_algebra rec
+binder 4382:4383 <> KA:78
+R4413:4433 project.theories <> kleene_algebra_theory rec
+R4435:4436 project.theories <> KA:78 var
+binder 4407:4409 <> KAt:79
+R4448:4454 project.theories <> carrier proj
+R4456:4457 project.theories <> KA:78 var
+binder 4440:4440 <> x:80
+binder 4442:4442 <> y:81
+binder 4444:4444 <> z:82
+R4474:4477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4464:4468 project.theories <> :::x_'['_'<='_x_']'_x not
+R4471:4472 project.theories <> :::x_'['_'<='_x_']'_x not
+R4469:4470 project.theories <> KA:78 var
+R4463:4463 project.theories <> x:80 var
+R4473:4473 project.theories <> y:81 var
+R4487:4491 project.theories <> :::x_'['_'<='_x_']'_x not
+R4494:4495 project.theories <> :::x_'['_'<='_x_']'_x not
+R4492:4493 project.theories <> KA:78 var
+R4479:4481 project.theories <> :::x_'[;'_x_']'_x not
+R4484:4485 project.theories <> :::x_'[;'_x_']'_x not
+R4482:4483 project.theories <> KA:78 var
+R4478:4478 project.theories <> x:80 var
+R4486:4486 project.theories <> z:82 var
+R4497:4499 project.theories <> :::x_'[;'_x_']'_x not
+R4502:4503 project.theories <> :::x_'[;'_x_']'_x not
+R4500:4501 project.theories <> KA:78 var
+R4496:4496 project.theories <> y:81 var
+R4504:4504 project.theories <> z:82 var
+R4531:4543 project.theories <> partial_order def
+R4563:4572 project.theories <> sr_distr_r proj
+R4563:4572 project.theories <> sr_distr_r proj
+R4563:4572 project.theories <> sr_distr_r proj
+prf 4623:4636 <> mul_monotone_l
+R4653:4666 project.theories <> kleene_algebra rec
+binder 4648:4649 <> KA:83
+R4679:4699 project.theories <> kleene_algebra_theory rec
+R4701:4702 project.theories <> KA:83 var
+binder 4673:4675 <> KAt:84
+R4714:4720 project.theories <> carrier proj
+R4722:4723 project.theories <> KA:83 var
+binder 4706:4706 <> x:85
+binder 4708:4708 <> y:86
+binder 4710:4710 <> z:87
+R4740:4743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4730:4734 project.theories <> :::x_'['_'<='_x_']'_x not
+R4737:4738 project.theories <> :::x_'['_'<='_x_']'_x not
+R4735:4736 project.theories <> KA:83 var
+R4729:4729 project.theories <> x:85 var
+R4739:4739 project.theories <> y:86 var
+R4753:4757 project.theories <> :::x_'['_'<='_x_']'_x not
+R4760:4761 project.theories <> :::x_'['_'<='_x_']'_x not
+R4758:4759 project.theories <> KA:83 var
+R4745:4747 project.theories <> :::x_'[;'_x_']'_x not
+R4750:4751 project.theories <> :::x_'[;'_x_']'_x not
+R4748:4749 project.theories <> KA:83 var
+R4744:4744 project.theories <> z:87 var
+R4752:4752 project.theories <> x:85 var
+R4763:4765 project.theories <> :::x_'[;'_x_']'_x not
+R4768:4769 project.theories <> :::x_'[;'_x_']'_x not
+R4766:4767 project.theories <> KA:83 var
+R4762:4762 project.theories <> z:87 var
+R4770:4770 project.theories <> y:86 var
+R4797:4809 project.theories <> partial_order def
+R4829:4838 project.theories <> sr_distr_l proj
+R4829:4838 project.theories <> sr_distr_l proj
+R4829:4838 project.theories <> sr_distr_l proj
+prf 4889:4901 <> star_monotone
+R4918:4931 project.theories <> kleene_algebra rec
+binder 4913:4914 <> KA:88
+R4944:4964 project.theories <> kleene_algebra_theory rec
+R4966:4967 project.theories <> KA:88 var
+binder 4938:4940 <> KAt:89
+R4977:4983 project.theories <> carrier proj
+R4985:4986 project.theories <> KA:88 var
+binder 4971:4971 <> x:90
+binder 4973:4973 <> y:91
+R5003:5006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4993:4997 project.theories <> :::x_'['_'<='_x_']'_x not
+R5000:5001 project.theories <> :::x_'['_'<='_x_']'_x not
+R4998:4999 project.theories <> KA:88 var
+R4992:4992 project.theories <> x:90 var
+R5002:5002 project.theories <> y:91 var
+R5007:5007 project.theories <> :::x_'['_'<='_x_']'_x not
+R5016:5021 project.theories <> :::x_'['_'<='_x_']'_x not
+R5024:5026 project.theories <> :::x_'['_'<='_x_']'_x not
+R5035:5035 project.theories <> :::x_'['_'<='_x_']'_x not
+R5022:5023 project.theories <> KA:88 var
+R5009:5012 project.theories <> :::x_'[*'_x_']' not
+R5015:5015 project.theories <> :::x_'[*'_x_']' not
+R5013:5014 project.theories <> KA:88 var
+R5008:5008 project.theories <> x:90 var
+R5028:5031 project.theories <> :::x_'[*'_x_']' not
+R5034:5034 project.theories <> :::x_'[*'_x_']' not
+R5032:5033 project.theories <> KA:88 var
+R5027:5027 project.theories <> y:91 var
+R5071:5073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5064:5067 project.theories <> :::x_'[*'_x_']' not
+R5070:5070 project.theories <> :::x_'[*'_x_']' not
+R5081:5084 project.theories <> :::x_'[;'_x_']'_x not
+R5087:5089 project.theories <> :::x_'[;'_x_']'_x not
+R5095:5095 project.theories <> :::x_'[;'_x_']'_x not
+R5075:5077 project.theories <> :::x_'[*'_x_']' not
+R5080:5080 project.theories <> :::x_'[*'_x_']' not
+R5090:5091 project.theories <> id proj
+R5071:5073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5064:5067 project.theories <> :::x_'[*'_x_']' not
+R5070:5070 project.theories <> :::x_'[*'_x_']' not
+R5081:5084 project.theories <> :::x_'[;'_x_']'_x not
+R5087:5089 project.theories <> :::x_'[;'_x_']'_x not
+R5095:5095 project.theories <> :::x_'[;'_x_']'_x not
+R5075:5077 project.theories <> :::x_'[*'_x_']' not
+R5080:5080 project.theories <> :::x_'[*'_x_']' not
+R5090:5091 project.theories <> id proj
+R5114:5120 project.theories <> sr_id_r proj
+R5114:5120 project.theories <> sr_id_r proj
+R5114:5120 project.theories <> sr_id_r proj
+R5168:5179 project.theories <> star_axiom_3 proj
+R5168:5179 project.theories <> star_axiom_3 proj
+R5204:5227 project.theories <> partial_order_transitive thm
+R5259:5261 project.theories <> :::x_'[+'_x_']'_x not
+R5264:5266 project.theories <> :::x_'[+'_x_']'_x not
+R5284:5284 project.theories <> :::x_'[+'_x_']'_x not
+R5254:5255 project.theories <> id proj
+R5268:5270 project.theories <> :::x_'[;'_x_']'_x not
+R5273:5275 project.theories <> :::x_'[;'_x_']'_x not
+R5283:5283 project.theories <> :::x_'[;'_x_']'_x not
+R5277:5279 project.theories <> :::x_'[*'_x_']' not
+R5282:5282 project.theories <> :::x_'[*'_x_']' not
+R5309:5311 project.theories <> :::x_'[+'_x_']'_x not
+R5314:5316 project.theories <> :::x_'[+'_x_']'_x not
+R5334:5334 project.theories <> :::x_'[+'_x_']'_x not
+R5304:5305 project.theories <> id proj
+R5318:5320 project.theories <> :::x_'[;'_x_']'_x not
+R5323:5325 project.theories <> :::x_'[;'_x_']'_x not
+R5333:5333 project.theories <> :::x_'[;'_x_']'_x not
+R5327:5329 project.theories <> :::x_'[*'_x_']' not
+R5332:5332 project.theories <> :::x_'[*'_x_']' not
+R5355:5357 project.theories <> :::x_'[*'_x_']' not
+R5360:5360 project.theories <> :::x_'[*'_x_']' not
+R5204:5227 project.theories <> partial_order_transitive thm
+R5259:5261 project.theories <> :::x_'[+'_x_']'_x not
+R5264:5266 project.theories <> :::x_'[+'_x_']'_x not
+R5284:5284 project.theories <> :::x_'[+'_x_']'_x not
+R5254:5255 project.theories <> id proj
+R5268:5270 project.theories <> :::x_'[;'_x_']'_x not
+R5273:5275 project.theories <> :::x_'[;'_x_']'_x not
+R5283:5283 project.theories <> :::x_'[;'_x_']'_x not
+R5277:5279 project.theories <> :::x_'[*'_x_']' not
+R5282:5282 project.theories <> :::x_'[*'_x_']' not
+R5309:5311 project.theories <> :::x_'[+'_x_']'_x not
+R5314:5316 project.theories <> :::x_'[+'_x_']'_x not
+R5334:5334 project.theories <> :::x_'[+'_x_']'_x not
+R5304:5305 project.theories <> id proj
+R5318:5320 project.theories <> :::x_'[;'_x_']'_x not
+R5323:5325 project.theories <> :::x_'[;'_x_']'_x not
+R5333:5333 project.theories <> :::x_'[;'_x_']'_x not
+R5327:5329 project.theories <> :::x_'[*'_x_']' not
+R5332:5332 project.theories <> :::x_'[*'_x_']' not
+R5355:5357 project.theories <> :::x_'[*'_x_']' not
+R5360:5360 project.theories <> :::x_'[*'_x_']' not
+R5396:5410 project.theories <> plus_monotone_l thm
+R5396:5410 project.theories <> plus_monotone_l thm
+R5428:5441 project.theories <> mul_monotone_r thm
+R5428:5441 project.theories <> mul_monotone_r thm
+R5472:5483 project.theories <> star_axiom_1 proj
+R5472:5483 project.theories <> star_axiom_1 proj
+prf 5605:5623 <> star_axiom_1_strong
+R5640:5653 project.theories <> kleene_algebra rec
+binder 5635:5636 <> KA:92
+R5666:5686 project.theories <> kleene_algebra_theory rec
+R5688:5689 project.theories <> KA:92 var
+binder 5660:5662 <> KAt:93
+R5697:5703 project.theories <> carrier proj
+R5705:5706 project.theories <> KA:92 var
+binder 5693:5693 <> x:94
+R5745:5747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5712:5712 project.theories <> :::x_'[+'_x_']'_x not
+R5718:5721 project.theories <> :::x_'[+'_x_']'_x not
+R5724:5726 project.theories <> :::x_'[+'_x_']'_x not
+R5744:5744 project.theories <> :::x_'[+'_x_']'_x not
+R5722:5723 project.theories <> KA:92 var
+R5713:5714 project.theories <> id proj
+R5716:5717 project.theories <> KA:92 var
+R5728:5730 project.theories <> :::x_'[;'_x_']'_x not
+R5733:5735 project.theories <> :::x_'[;'_x_']'_x not
+R5743:5743 project.theories <> :::x_'[;'_x_']'_x not
+R5731:5732 project.theories <> KA:92 var
+R5727:5727 project.theories <> x:94 var
+R5737:5739 project.theories <> :::x_'[*'_x_']' not
+R5742:5742 project.theories <> :::x_'[*'_x_']' not
+R5740:5741 project.theories <> KA:92 var
+R5736:5736 project.theories <> x:94 var
+R5749:5751 project.theories <> :::x_'[*'_x_']' not
+R5754:5754 project.theories <> :::x_'[*'_x_']' not
+R5752:5753 project.theories <> KA:92 var
+R5748:5748 project.theories <> x:94 var
+R5781:5807 project.theories <> partial_order_antisymmetric thm
+R5781:5807 project.theories <> partial_order_antisymmetric thm
+R5829:5840 project.theories <> star_axiom_1 proj
+R5829:5840 project.theories <> star_axiom_1 proj
+R5867:5873 project.theories <> sr_id_r proj
+R5884:5886 project.theories <> :::x_'[*'_x_']' not
+R5889:5889 project.theories <> :::x_'[*'_x_']' not
+R5867:5873 project.theories <> sr_id_r proj
+R5884:5886 project.theories <> :::x_'[*'_x_']' not
+R5889:5889 project.theories <> :::x_'[*'_x_']' not
+R5932:5943 project.theories <> star_axiom_3 proj
+R5932:5943 project.theories <> star_axiom_3 proj
+R5961:5975 project.theories <> plus_monotone_l thm
+R5961:5975 project.theories <> plus_monotone_l thm
+R5997:6010 project.theories <> mul_monotone_l thm
+R5997:6010 project.theories <> mul_monotone_l thm
+R6028:6039 project.theories <> star_axiom_1 proj
+R6028:6039 project.theories <> star_axiom_1 proj
+prf 6064:6082 <> star_axiom_2_strong
+R6099:6112 project.theories <> kleene_algebra rec
+binder 6094:6095 <> KA:95
+R6125:6145 project.theories <> kleene_algebra_theory rec
+R6147:6148 project.theories <> KA:95 var
+binder 6119:6121 <> KAt:96
+R6156:6162 project.theories <> carrier proj
+R6164:6165 project.theories <> KA:95 var
+binder 6152:6152 <> x:97
+R6204:6206 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6171:6171 project.theories <> :::x_'[+'_x_']'_x not
+R6177:6180 project.theories <> :::x_'[+'_x_']'_x not
+R6183:6185 project.theories <> :::x_'[+'_x_']'_x not
+R6203:6203 project.theories <> :::x_'[+'_x_']'_x not
+R6181:6182 project.theories <> KA:95 var
+R6172:6173 project.theories <> id proj
+R6175:6176 project.theories <> KA:95 var
+R6186:6186 project.theories <> :::x_'[;'_x_']'_x not
+R6194:6197 project.theories <> :::x_'[;'_x_']'_x not
+R6200:6201 project.theories <> :::x_'[;'_x_']'_x not
+R6198:6199 project.theories <> KA:95 var
+R6188:6190 project.theories <> :::x_'[*'_x_']' not
+R6193:6193 project.theories <> :::x_'[*'_x_']' not
+R6191:6192 project.theories <> KA:95 var
+R6187:6187 project.theories <> x:97 var
+R6202:6202 project.theories <> x:97 var
+R6208:6210 project.theories <> :::x_'[*'_x_']' not
+R6213:6213 project.theories <> :::x_'[*'_x_']' not
+R6211:6212 project.theories <> KA:95 var
+R6207:6207 project.theories <> x:97 var
+R6241:6267 project.theories <> partial_order_antisymmetric thm
+R6241:6267 project.theories <> partial_order_antisymmetric thm
+R6289:6300 project.theories <> star_axiom_2 proj
+R6289:6300 project.theories <> star_axiom_2 proj
+R6327:6333 project.theories <> sr_id_l proj
+R6344:6346 project.theories <> :::x_'[*'_x_']' not
+R6349:6349 project.theories <> :::x_'[*'_x_']' not
+R6327:6333 project.theories <> sr_id_l proj
+R6344:6346 project.theories <> :::x_'[*'_x_']' not
+R6349:6349 project.theories <> :::x_'[*'_x_']' not
+R6392:6403 project.theories <> star_axiom_4 proj
+R6392:6403 project.theories <> star_axiom_4 proj
+R6421:6435 project.theories <> plus_monotone_l thm
+R6421:6435 project.theories <> plus_monotone_l thm
+R6457:6470 project.theories <> mul_monotone_r thm
+R6457:6470 project.theories <> mul_monotone_r thm
+R6488:6499 project.theories <> star_axiom_2 proj
+R6488:6499 project.theories <> star_axiom_2 proj
+prf 6569:6578 <> id_le_star
+R6595:6608 project.theories <> kleene_algebra rec
+binder 6590:6591 <> KA:98
+R6621:6641 project.theories <> kleene_algebra_theory rec
+R6643:6644 project.theories <> KA:98 var
+binder 6615:6617 <> KAt:99
+R6652:6658 project.theories <> carrier proj
+R6660:6661 project.theories <> KA:98 var
+binder 6648:6648 <> x:100
+R6672:6676 project.theories <> :::x_'['_'<='_x_']'_x not
+R6679:6680 project.theories <> :::x_'['_'<='_x_']'_x not
+R6677:6678 project.theories <> KA:98 var
+R6667:6668 project.theories <> id proj
+R6670:6671 project.theories <> KA:98 var
+R6682:6684 project.theories <> :::x_'[*'_x_']' not
+R6687:6687 project.theories <> :::x_'[*'_x_']' not
+R6685:6686 project.theories <> KA:98 var
+R6681:6681 project.theories <> x:100 var
+R6719:6737 project.theories <> star_axiom_1_strong thm
+R6719:6737 project.theories <> star_axiom_1_strong thm
+R6768:6780 project.theories <> partial_order def
+R6806:6818 project.theories <> sr_plus_assoc proj
+R6806:6818 project.theories <> sr_plus_assoc proj
+R6806:6818 project.theories <> sr_plus_assoc proj
+R6840:6852 project.theories <> sr_idempotent proj
+R6840:6852 project.theories <> sr_idempotent proj
+R6840:6852 project.theories <> sr_idempotent proj
+prf 6890:6898 <> x_le_star
+R6915:6928 project.theories <> kleene_algebra rec
+binder 6910:6911 <> KA:101
+R6941:6961 project.theories <> kleene_algebra_theory rec
+R6963:6964 project.theories <> KA:101 var
+binder 6935:6937 <> KAt:102
+R6972:6978 project.theories <> carrier proj
+R6980:6981 project.theories <> KA:101 var
+binder 6968:6968 <> x:103
+R6988:6992 project.theories <> :::x_'['_'<='_x_']'_x not
+R6995:6996 project.theories <> :::x_'['_'<='_x_']'_x not
+R6993:6994 project.theories <> KA:101 var
+R6987:6987 project.theories <> x:103 var
+R6998:7000 project.theories <> :::x_'[*'_x_']' not
+R7003:7003 project.theories <> :::x_'[*'_x_']' not
+R7001:7002 project.theories <> KA:101 var
+R6997:6997 project.theories <> x:103 var
+R7035:7044 project.theories <> id_le_star thm
+R7035:7044 project.theories <> id_le_star thm
+R7075:7088 project.theories <> mul_monotone_l thm
+R7075:7088 project.theories <> mul_monotone_l thm
+R7130:7136 project.theories <> sr_id_r proj
+R7130:7136 project.theories <> sr_id_r proj
+R7130:7136 project.theories <> sr_id_r proj
+R7167:7185 project.theories <> star_axiom_1_strong thm
+R7167:7185 project.theories <> star_axiom_1_strong thm
+R7213:7225 project.theories <> partial_order def
+R7264:7276 project.theories <> sr_plus_assoc proj
+R7264:7276 project.theories <> sr_plus_assoc proj
+R7264:7276 project.theories <> sr_plus_assoc proj
+R7301:7312 project.theories <> sr_plus_comm proj
+R7324:7325 project.theories <> id proj
+R7301:7312 project.theories <> sr_plus_comm proj
+R7324:7325 project.theories <> id proj
+R7367:7379 project.theories <> sr_plus_assoc proj
+R7367:7379 project.theories <> sr_plus_assoc proj
+R7367:7379 project.theories <> sr_plus_assoc proj
+prf 7425:7443 <> xstar_xstar_le_star
+R7460:7473 project.theories <> kleene_algebra rec
+binder 7455:7456 <> KA:104
+R7486:7506 project.theories <> kleene_algebra_theory rec
+R7508:7509 project.theories <> KA:104 var
+binder 7480:7482 <> KAt:105
+R7517:7523 project.theories <> carrier proj
+R7525:7526 project.theories <> KA:104 var
+binder 7513:7513 <> x:106
+R7557:7561 project.theories <> :::x_'['_'<='_x_']'_x not
+R7564:7565 project.theories <> :::x_'['_'<='_x_']'_x not
+R7562:7563 project.theories <> KA:104 var
+R7532:7532 project.theories <> :::x_'[;'_x_']'_x not
+R7540:7543 project.theories <> :::x_'[;'_x_']'_x not
+R7546:7548 project.theories <> :::x_'[;'_x_']'_x not
+R7556:7556 project.theories <> :::x_'[;'_x_']'_x not
+R7544:7545 project.theories <> KA:104 var
+R7534:7536 project.theories <> :::x_'[*'_x_']' not
+R7539:7539 project.theories <> :::x_'[*'_x_']' not
+R7537:7538 project.theories <> KA:104 var
+R7533:7533 project.theories <> x:106 var
+R7550:7552 project.theories <> :::x_'[*'_x_']' not
+R7555:7555 project.theories <> :::x_'[*'_x_']' not
+R7553:7554 project.theories <> KA:104 var
+R7549:7549 project.theories <> x:106 var
+R7567:7568 project.theories <> :::x_'[*'_x_']' not
+R7571:7571 project.theories <> :::x_'[*'_x_']' not
+R7569:7570 project.theories <> KA:104 var
+R7566:7566 project.theories <> x:106 var
+R7598:7609 project.theories <> star_axiom_3 proj
+R7598:7609 project.theories <> star_axiom_3 proj
+R7646:7650 project.theories <> :::x_'['_'<='_x_']'_x not
+R7653:7654 project.theories <> :::x_'['_'<='_x_']'_x not
+R7631:7633 project.theories <> :::x_'[;'_x_']'_x not
+R7636:7638 project.theories <> :::x_'[;'_x_']'_x not
+R7645:7645 project.theories <> :::x_'[;'_x_']'_x not
+R7640:7641 project.theories <> :::x_'[*'_x_']' not
+R7644:7644 project.theories <> :::x_'[*'_x_']' not
+R7656:7657 project.theories <> :::x_'[*'_x_']' not
+R7660:7660 project.theories <> :::x_'[*'_x_']' not
+R7646:7650 project.theories <> :::x_'['_'<='_x_']'_x not
+R7653:7654 project.theories <> :::x_'['_'<='_x_']'_x not
+R7631:7633 project.theories <> :::x_'[;'_x_']'_x not
+R7636:7638 project.theories <> :::x_'[;'_x_']'_x not
+R7645:7645 project.theories <> :::x_'[;'_x_']'_x not
+R7640:7641 project.theories <> :::x_'[*'_x_']' not
+R7644:7644 project.theories <> :::x_'[*'_x_']' not
+R7656:7657 project.theories <> :::x_'[*'_x_']' not
+R7660:7660 project.theories <> :::x_'[*'_x_']' not
+R7682:7705 project.theories <> partial_order_transitive thm
+R7716:7718 project.theories <> :::x_'[;'_x_']'_x not
+R7721:7723 project.theories <> :::x_'[;'_x_']'_x not
+R7730:7730 project.theories <> :::x_'[;'_x_']'_x not
+R7725:7726 project.theories <> :::x_'[*'_x_']' not
+R7729:7729 project.theories <> :::x_'[*'_x_']' not
+R7742:7742 project.theories <> :::x_'[+'_x_']'_x not
+R7748:7751 project.theories <> :::x_'[+'_x_']'_x not
+R7754:7756 project.theories <> :::x_'[+'_x_']'_x not
+R7773:7773 project.theories <> :::x_'[+'_x_']'_x not
+R7743:7744 project.theories <> id proj
+R7758:7760 project.theories <> :::x_'[;'_x_']'_x not
+R7763:7765 project.theories <> :::x_'[;'_x_']'_x not
+R7772:7772 project.theories <> :::x_'[;'_x_']'_x not
+R7767:7768 project.theories <> :::x_'[*'_x_']' not
+R7771:7771 project.theories <> :::x_'[*'_x_']' not
+R7778:7779 project.theories <> :::x_'[*'_x_']' not
+R7782:7782 project.theories <> :::x_'[*'_x_']' not
+R7682:7705 project.theories <> partial_order_transitive thm
+R7716:7718 project.theories <> :::x_'[;'_x_']'_x not
+R7721:7723 project.theories <> :::x_'[;'_x_']'_x not
+R7730:7730 project.theories <> :::x_'[;'_x_']'_x not
+R7725:7726 project.theories <> :::x_'[*'_x_']' not
+R7729:7729 project.theories <> :::x_'[*'_x_']' not
+R7742:7742 project.theories <> :::x_'[+'_x_']'_x not
+R7748:7751 project.theories <> :::x_'[+'_x_']'_x not
+R7754:7756 project.theories <> :::x_'[+'_x_']'_x not
+R7773:7773 project.theories <> :::x_'[+'_x_']'_x not
+R7743:7744 project.theories <> id proj
+R7758:7760 project.theories <> :::x_'[;'_x_']'_x not
+R7763:7765 project.theories <> :::x_'[;'_x_']'_x not
+R7772:7772 project.theories <> :::x_'[;'_x_']'_x not
+R7767:7768 project.theories <> :::x_'[*'_x_']' not
+R7771:7771 project.theories <> :::x_'[*'_x_']' not
+R7778:7779 project.theories <> :::x_'[*'_x_']' not
+R7782:7782 project.theories <> :::x_'[*'_x_']' not
+R7819:7831 project.theories <> partial_order def
+R7843:7854 project.theories <> sr_plus_comm proj
+R7843:7854 project.theories <> sr_plus_comm proj
+R7843:7854 project.theories <> sr_plus_comm proj
+R7885:7897 project.theories <> sr_plus_assoc proj
+R7885:7897 project.theories <> sr_plus_assoc proj
+R7885:7897 project.theories <> sr_plus_assoc proj
+R7917:7929 project.theories <> sr_idempotent proj
+R7917:7929 project.theories <> sr_idempotent proj
+R7917:7929 project.theories <> sr_idempotent proj
+R7976:7987 project.theories <> star_axiom_1 proj
+R7976:7987 project.theories <> star_axiom_1 proj
+R8009:8021 project.theories <> partial_order def
+R8041:8053 project.theories <> sr_plus_assoc proj
+R8041:8053 project.theories <> sr_plus_assoc proj
+R8041:8053 project.theories <> sr_plus_assoc proj
+R8084:8096 project.theories <> sr_idempotent proj
+R8084:8096 project.theories <> sr_idempotent proj
+prf 8182:8197 <> star_3_alternate
+R8214:8227 project.theories <> kleene_algebra rec
+binder 8209:8210 <> KA:107
+R8239:8259 project.theories <> kleene_algebra_theory rec
+R8261:8262 project.theories <> KA:107 var
+binder 8233:8235 <> KAt:108
+R8268:8268 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8360:8368 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8430:8430 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8284:8290 project.theories <> carrier proj
+R8292:8293 project.theories <> KA:107 var
+binder 8276:8276 <> a:109
+binder 8278:8278 <> b:110
+binder 8280:8280 <> x:111
+R8328:8331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8317:8322 project.theories <> :::x_'['_'<='_x_']'_x not
+R8325:8326 project.theories <> :::x_'['_'<='_x_']'_x not
+R8323:8324 project.theories <> KA:107 var
+R8299:8301 project.theories <> :::x_'[+'_x_']'_x not
+R8304:8306 project.theories <> :::x_'[+'_x_']'_x not
+R8316:8316 project.theories <> :::x_'[+'_x_']'_x not
+R8302:8303 project.theories <> KA:107 var
+R8298:8298 project.theories <> b:110 var
+R8308:8310 project.theories <> :::x_'[;'_x_']'_x not
+R8313:8314 project.theories <> :::x_'[;'_x_']'_x not
+R8311:8312 project.theories <> KA:107 var
+R8307:8307 project.theories <> a:109 var
+R8315:8315 project.theories <> x:111 var
+R8327:8327 project.theories <> x:111 var
+R8349:8354 project.theories <> :::x_'['_'<='_x_']'_x not
+R8357:8358 project.theories <> :::x_'['_'<='_x_']'_x not
+R8355:8356 project.theories <> KA:107 var
+R8332:8332 project.theories <> :::x_'[;'_x_']'_x not
+R8340:8343 project.theories <> :::x_'[;'_x_']'_x not
+R8346:8347 project.theories <> :::x_'[;'_x_']'_x not
+R8344:8345 project.theories <> KA:107 var
+R8334:8336 project.theories <> :::x_'[*'_x_']' not
+R8339:8339 project.theories <> :::x_'[*'_x_']' not
+R8337:8338 project.theories <> KA:107 var
+R8333:8333 project.theories <> a:109 var
+R8348:8348 project.theories <> b:110 var
+R8359:8359 project.theories <> x:111 var
+binder 8376:8376 <> a:112
+binder 8378:8378 <> x:113
+R8400:8403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8390:8394 project.theories <> :::x_'['_'<='_x_']'_x not
+R8397:8398 project.theories <> :::x_'['_'<='_x_']'_x not
+R8395:8396 project.theories <> KA:107 var
+R8382:8384 project.theories <> :::x_'[;'_x_']'_x not
+R8387:8388 project.theories <> :::x_'[;'_x_']'_x not
+R8385:8386 project.theories <> KA:107 var
+R8381:8381 project.theories <> a:112 var
+R8389:8389 project.theories <> x:113 var
+R8399:8399 project.theories <> x:113 var
+R8420:8424 project.theories <> :::x_'['_'<='_x_']'_x not
+R8427:8428 project.theories <> :::x_'['_'<='_x_']'_x not
+R8425:8426 project.theories <> KA:107 var
+R8404:8404 project.theories <> :::x_'[;'_x_']'_x not
+R8411:8414 project.theories <> :::x_'[;'_x_']'_x not
+R8417:8418 project.theories <> :::x_'[;'_x_']'_x not
+R8415:8416 project.theories <> KA:107 var
+R8406:8407 project.theories <> :::x_'[*'_x_']' not
+R8410:8410 project.theories <> :::x_'[*'_x_']' not
+R8408:8409 project.theories <> KA:107 var
+R8405:8405 project.theories <> a:112 var
+R8419:8419 project.theories <> x:113 var
+R8429:8429 project.theories <> x:113 var
+R8485:8497 project.theories <> partial_order def
+R8522:8534 project.theories <> sr_plus_assoc proj
+R8522:8534 project.theories <> sr_plus_assoc proj
+R8522:8534 project.theories <> sr_plus_assoc proj
+R8564:8576 project.theories <> sr_idempotent proj
+R8564:8576 project.theories <> sr_idempotent proj
+R8608:8612 project.theories <> :::x_'['_'<='_x_']'_x not
+R8615:8616 project.theories <> :::x_'['_'<='_x_']'_x not
+R8608:8612 project.theories <> :::x_'['_'<='_x_']'_x not
+R8615:8616 project.theories <> :::x_'['_'<='_x_']'_x not
+R8636:8648 project.theories <> partial_order def
+R8696:8708 project.theories <> sr_plus_assoc proj
+R8696:8708 project.theories <> sr_plus_assoc proj
+R8696:8708 project.theories <> sr_plus_assoc proj
+R8696:8708 project.theories <> sr_plus_assoc proj
+R8696:8708 project.theories <> sr_plus_assoc proj
+R8696:8708 project.theories <> sr_plus_assoc proj
+R8728:8740 project.theories <> sr_idempotent proj
+R8728:8740 project.theories <> sr_idempotent proj
+R8728:8740 project.theories <> sr_idempotent proj
+R8795:8799 project.theories <> :::x_'['_'<='_x_']'_x not
+R8802:8803 project.theories <> :::x_'['_'<='_x_']'_x not
+R8787:8789 project.theories <> :::x_'[;'_x_']'_x not
+R8792:8793 project.theories <> :::x_'[;'_x_']'_x not
+R8795:8799 project.theories <> :::x_'['_'<='_x_']'_x not
+R8802:8803 project.theories <> :::x_'['_'<='_x_']'_x not
+R8787:8789 project.theories <> :::x_'[;'_x_']'_x not
+R8792:8793 project.theories <> :::x_'[;'_x_']'_x not
+R8824:8836 project.theories <> partial_order def
+R8882:8894 project.theories <> sr_plus_assoc proj
+R8882:8894 project.theories <> sr_plus_assoc proj
+R8882:8894 project.theories <> sr_plus_assoc proj
+R8927:8938 project.theories <> sr_plus_comm proj
+R8951:8953 project.theories <> :::x_'[;'_x_']'_x not
+R8956:8957 project.theories <> :::x_'[;'_x_']'_x not
+R8927:8938 project.theories <> sr_plus_comm proj
+R8951:8953 project.theories <> :::x_'[;'_x_']'_x not
+R8956:8957 project.theories <> :::x_'[;'_x_']'_x not
+R9001:9013 project.theories <> sr_plus_assoc proj
+R9001:9013 project.theories <> sr_plus_assoc proj
+R9001:9013 project.theories <> sr_plus_assoc proj
+R9033:9045 project.theories <> sr_idempotent proj
+R9033:9045 project.theories <> sr_idempotent proj
+R9033:9045 project.theories <> sr_idempotent proj
+R9104:9127 project.theories <> partial_order_transitive thm
+R9137:9137 project.theories <> :::x_'[;'_x_']'_x not
+R9145:9148 project.theories <> :::x_'[;'_x_']'_x not
+R9151:9152 project.theories <> :::x_'[;'_x_']'_x not
+R9139:9141 project.theories <> :::x_'[*'_x_']' not
+R9144:9144 project.theories <> :::x_'[*'_x_']' not
+R9163:9163 project.theories <> :::x_'[;'_x_']'_x not
+R9171:9174 project.theories <> :::x_'[;'_x_']'_x not
+R9177:9178 project.theories <> :::x_'[;'_x_']'_x not
+R9165:9167 project.theories <> :::x_'[*'_x_']' not
+R9170:9170 project.theories <> :::x_'[*'_x_']' not
+R9104:9127 project.theories <> partial_order_transitive thm
+R9137:9137 project.theories <> :::x_'[;'_x_']'_x not
+R9145:9148 project.theories <> :::x_'[;'_x_']'_x not
+R9151:9152 project.theories <> :::x_'[;'_x_']'_x not
+R9139:9141 project.theories <> :::x_'[*'_x_']' not
+R9144:9144 project.theories <> :::x_'[*'_x_']' not
+R9163:9163 project.theories <> :::x_'[;'_x_']'_x not
+R9171:9174 project.theories <> :::x_'[;'_x_']'_x not
+R9177:9178 project.theories <> :::x_'[;'_x_']'_x not
+R9165:9167 project.theories <> :::x_'[*'_x_']' not
+R9170:9170 project.theories <> :::x_'[*'_x_']' not
+R9199:9212 project.theories <> mul_monotone_l thm
+R9199:9212 project.theories <> mul_monotone_l thm
+prf 9272:9287 <> star_4_alternate
+R9304:9317 project.theories <> kleene_algebra rec
+binder 9299:9300 <> KA:114
+R9329:9349 project.theories <> kleene_algebra_theory rec
+R9351:9352 project.theories <> KA:114 var
+binder 9323:9325 <> KAt:115
+R9358:9358 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9450:9458 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9520:9520 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9374:9380 project.theories <> carrier proj
+R9382:9383 project.theories <> KA:114 var
+binder 9366:9366 <> a:116
+binder 9368:9368 <> b:117
+binder 9370:9370 <> x:118
+R9418:9421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9407:9412 project.theories <> :::x_'['_'<='_x_']'_x not
+R9415:9416 project.theories <> :::x_'['_'<='_x_']'_x not
+R9413:9414 project.theories <> KA:114 var
+R9389:9391 project.theories <> :::x_'[+'_x_']'_x not
+R9394:9396 project.theories <> :::x_'[+'_x_']'_x not
+R9406:9406 project.theories <> :::x_'[+'_x_']'_x not
+R9392:9393 project.theories <> KA:114 var
+R9388:9388 project.theories <> b:117 var
+R9398:9400 project.theories <> :::x_'[;'_x_']'_x not
+R9403:9404 project.theories <> :::x_'[;'_x_']'_x not
+R9401:9402 project.theories <> KA:114 var
+R9397:9397 project.theories <> x:118 var
+R9405:9405 project.theories <> a:116 var
+R9417:9417 project.theories <> x:118 var
+R9439:9444 project.theories <> :::x_'['_'<='_x_']'_x not
+R9447:9448 project.theories <> :::x_'['_'<='_x_']'_x not
+R9445:9446 project.theories <> KA:114 var
+R9423:9425 project.theories <> :::x_'[;'_x_']'_x not
+R9428:9430 project.theories <> :::x_'[;'_x_']'_x not
+R9438:9438 project.theories <> :::x_'[;'_x_']'_x not
+R9426:9427 project.theories <> KA:114 var
+R9422:9422 project.theories <> b:117 var
+R9432:9434 project.theories <> :::x_'[*'_x_']' not
+R9437:9437 project.theories <> :::x_'[*'_x_']' not
+R9435:9436 project.theories <> KA:114 var
+R9431:9431 project.theories <> a:116 var
+R9449:9449 project.theories <> x:118 var
+binder 9466:9466 <> a:119
+binder 9468:9468 <> x:120
+R9490:9493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9480:9484 project.theories <> :::x_'['_'<='_x_']'_x not
+R9487:9488 project.theories <> :::x_'['_'<='_x_']'_x not
+R9485:9486 project.theories <> KA:114 var
+R9472:9474 project.theories <> :::x_'[;'_x_']'_x not
+R9477:9478 project.theories <> :::x_'[;'_x_']'_x not
+R9475:9476 project.theories <> KA:114 var
+R9471:9471 project.theories <> x:120 var
+R9479:9479 project.theories <> a:119 var
+R9489:9489 project.theories <> x:120 var
+R9510:9514 project.theories <> :::x_'['_'<='_x_']'_x not
+R9517:9518 project.theories <> :::x_'['_'<='_x_']'_x not
+R9515:9516 project.theories <> KA:114 var
+R9495:9497 project.theories <> :::x_'[;'_x_']'_x not
+R9500:9502 project.theories <> :::x_'[;'_x_']'_x not
+R9509:9509 project.theories <> :::x_'[;'_x_']'_x not
+R9498:9499 project.theories <> KA:114 var
+R9494:9494 project.theories <> x:120 var
+R9504:9505 project.theories <> :::x_'[*'_x_']' not
+R9508:9508 project.theories <> :::x_'[*'_x_']' not
+R9506:9507 project.theories <> KA:114 var
+R9503:9503 project.theories <> a:119 var
+R9519:9519 project.theories <> x:120 var
+R9576:9588 project.theories <> partial_order def
+R9608:9620 project.theories <> sr_plus_assoc proj
+R9608:9620 project.theories <> sr_plus_assoc proj
+R9608:9620 project.theories <> sr_plus_assoc proj
+R9654:9666 project.theories <> sr_idempotent proj
+R9654:9666 project.theories <> sr_idempotent proj
+R9690:9694 project.theories <> :::x_'['_'<='_x_']'_x not
+R9697:9698 project.theories <> :::x_'['_'<='_x_']'_x not
+R9690:9694 project.theories <> :::x_'['_'<='_x_']'_x not
+R9697:9698 project.theories <> :::x_'['_'<='_x_']'_x not
+R9716:9728 project.theories <> partial_order def
+R9772:9784 project.theories <> sr_plus_assoc proj
+R9772:9784 project.theories <> sr_plus_assoc proj
+R9772:9784 project.theories <> sr_plus_assoc proj
+R9772:9784 project.theories <> sr_plus_assoc proj
+R9772:9784 project.theories <> sr_plus_assoc proj
+R9772:9784 project.theories <> sr_plus_assoc proj
+R9804:9816 project.theories <> sr_idempotent proj
+R9804:9816 project.theories <> sr_idempotent proj
+R9804:9816 project.theories <> sr_idempotent proj
+R9867:9871 project.theories <> :::x_'['_'<='_x_']'_x not
+R9874:9875 project.theories <> :::x_'['_'<='_x_']'_x not
+R9859:9861 project.theories <> :::x_'[;'_x_']'_x not
+R9864:9865 project.theories <> :::x_'[;'_x_']'_x not
+R9867:9871 project.theories <> :::x_'['_'<='_x_']'_x not
+R9874:9875 project.theories <> :::x_'['_'<='_x_']'_x not
+R9859:9861 project.theories <> :::x_'[;'_x_']'_x not
+R9864:9865 project.theories <> :::x_'[;'_x_']'_x not
+R9896:9908 project.theories <> partial_order def
+R9953:9965 project.theories <> sr_plus_assoc proj
+R9953:9965 project.theories <> sr_plus_assoc proj
+R9953:9965 project.theories <> sr_plus_assoc proj
+R9997:10008 project.theories <> sr_plus_comm proj
+R10021:10023 project.theories <> :::x_'[;'_x_']'_x not
+R10026:10027 project.theories <> :::x_'[;'_x_']'_x not
+R9997:10008 project.theories <> sr_plus_comm proj
+R10021:10023 project.theories <> :::x_'[;'_x_']'_x not
+R10026:10027 project.theories <> :::x_'[;'_x_']'_x not
+R10070:10082 project.theories <> sr_plus_assoc proj
+R10070:10082 project.theories <> sr_plus_assoc proj
+R10070:10082 project.theories <> sr_plus_assoc proj
+R10102:10114 project.theories <> sr_idempotent proj
+R10102:10114 project.theories <> sr_idempotent proj
+R10102:10114 project.theories <> sr_idempotent proj
+R10172:10195 project.theories <> partial_order_transitive thm
+R10206:10208 project.theories <> :::x_'[;'_x_']'_x not
+R10211:10213 project.theories <> :::x_'[;'_x_']'_x not
+R10220:10220 project.theories <> :::x_'[;'_x_']'_x not
+R10215:10216 project.theories <> :::x_'[*'_x_']' not
+R10219:10219 project.theories <> :::x_'[*'_x_']' not
+R10231:10233 project.theories <> :::x_'[;'_x_']'_x not
+R10236:10238 project.theories <> :::x_'[;'_x_']'_x not
+R10245:10245 project.theories <> :::x_'[;'_x_']'_x not
+R10240:10241 project.theories <> :::x_'[*'_x_']' not
+R10244:10244 project.theories <> :::x_'[*'_x_']' not
+R10172:10195 project.theories <> partial_order_transitive thm
+R10206:10208 project.theories <> :::x_'[;'_x_']'_x not
+R10211:10213 project.theories <> :::x_'[;'_x_']'_x not
+R10220:10220 project.theories <> :::x_'[;'_x_']'_x not
+R10215:10216 project.theories <> :::x_'[*'_x_']' not
+R10219:10219 project.theories <> :::x_'[*'_x_']' not
+R10231:10233 project.theories <> :::x_'[;'_x_']'_x not
+R10236:10238 project.theories <> :::x_'[;'_x_']'_x not
+R10245:10245 project.theories <> :::x_'[;'_x_']'_x not
+R10240:10241 project.theories <> :::x_'[*'_x_']' not
+R10244:10244 project.theories <> :::x_'[*'_x_']' not
+R10265:10278 project.theories <> mul_monotone_r thm
+R10265:10278 project.theories <> mul_monotone_r thm

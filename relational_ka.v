@@ -340,4 +340,6 @@ Definition relational_KA_theory (X : Type) : kleene_algebra_theory (RKA X) :=
     star_axiom_4 := rel_star_4 X; 
   |}.
 
+Definition RKAt (X : Type) := relational_KA_theory X.
+
 
