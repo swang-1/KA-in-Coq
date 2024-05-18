@@ -35,7 +35,10 @@ Definition rel_star {X : Type} (R : relation X) :=
   fun x y => exists n, (rel_pow R n) x y.
 
 (* Now can define a relational Kleene Algebra paremetrized by a type X.
-   This represents the relational model of all relations over a set X. *)
+   This represents the relational model of all relations over a set X. Note
+   that this definition does not cover general relational models. Rather, the
+   below defines the relational model consisting of ALL relations over a
+   set X. *)
 Definition relational_KA (X : Type) : kleene_algebra :=
   {|
     carrier := relation X ;

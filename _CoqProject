@@ -1,3 +1,5 @@
 -R . project
 ./theories.v
 ./facts.v
+./relational_ka.v
+./language_ka.v

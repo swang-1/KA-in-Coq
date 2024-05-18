@@ -3,16 +3,13 @@ Require Import facts.
 From Coq Require Import Strings.String.
 From Coq Require Import Ensembles.
 
+(* Below are the definitions needed to define a language model. Note that 
+   the following is limited to the language model over the set of all 
+   ascii characters. *)
 Definition language := Ensemble string.
-
-Definition lang_union (A B : language ):= Union string A B.
 
 Definition lang_comp (A B : language) :=
   fun s => exists x y, A x /\ B y /\ s = append x y.
-
-Definition lang_id := Singleton string (EmptyString).
-
-Definition lang_null := Empty_set string.
 
 Fixpoint lang_pow (A : language) (n : nat) :=
   match n with
