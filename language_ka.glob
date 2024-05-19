@@ -1,0 +1,35 @@
+DIGEST 9e931eb0a201a9e806a083879d3303bd
+Fproject.language_ka
+R15:22 project.theories <> <> lib
+R40:44 project.facts <> <> lib
+R71:84 Coq.Strings.String <> <> lib
+R111:119 Coq.Sets.Ensembles <> <> lib
+def 304:311 <> language
+R316:323 Coq.Sets.Ensembles <> Ensemble def
+R325:330 Coq.Strings.String <> string ind
+def 345:353 <> lang_comp
+R362:369 project.language_ka <> language def
+binder 356:356 <> A:1
+binder 358:358 <> B:2
+binder 381:381 <> s:3
+R386:392 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R396:397 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 393:393 <> x:4
+binder 395:395 <> y:5
+R401:404 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R398:398 project.language_ka <> A:1 var
+R400:400 project.language_ka <> x:4 var
+R408:411 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R405:405 project.language_ka <> B:2 var
+R407:407 project.language_ka <> y:5 var
+R413:415 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R412:412 project.language_ka <> s:3 var
+R416:421 Coq.Strings.String <> append def
+R423:423 project.language_ka <> x:4 var
+R425:425 project.language_ka <> y:5 var
+def 438:445 <> lang_pow
+R452:459 project.language_ka <> language def
+binder 448:448 <> A:6
+R467:469 Coq.Init.Datatypes <> nat ind
+binder 463:463 <> n:7
+R483:483 project.language_ka <> n:7 var
