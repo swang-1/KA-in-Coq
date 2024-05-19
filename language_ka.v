@@ -13,7 +13,7 @@ Definition lang_comp (A B : language) :=
 
 Fixpoint lang_pow (A : language) (n : nat) :=
   match n with
-  | 0 => lang_id
+  | 0 => Singleton string (EmptyString)
   | S x => lang_comp A (lang_pow A x)
   end.
 

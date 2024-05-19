@@ -266,7 +266,7 @@ Proof.
   unfold inclusion in *. intros. apply H. unfold rel_comp in H0.
   inversion H0. destruct H1. destruct H1. induction x2.
   - simpl in H1. destruct H1. left. easy.
-  -  specialize (star_3_helper X a b x) ; intros.
+  - specialize (star_3_helper X a b x) ; intros.
      assert (b [+RKA X] (a [;RKA X] x) [ <= RKA X] x).
       { simpl. apply rel_le_inclusion. unfold inclusion. apply H. } 
      apply H3 with (n:=x2) in H4. right. apply rel_le_inclusion in H4.
