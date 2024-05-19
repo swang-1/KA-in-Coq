@@ -98,5 +98,28 @@ Definition language_KA :=
     null := Empty_set string ;
   |}.
 ```
-Note that this formalization defines the language model over $\Sigma^\ast$ where $\Sigma$ is the alphabet containing all ascii characters.
+Note that this formalization defines the language model over $\Sigma^\ast$ where $\Sigma$ is the alphabet containing all ascii characters. The proofs for the idempotent semiring and star axioms are admitted due to their similarity to the proofs for relational models.
+
+### Morphisms Between Kleene Algebras
+
+`isomorphism.v` demonstrates the ability to construct and prove properties about mappings between Kleene Algebras. We first define what it means for a function between two Kleene algebras to be a homomorphism:
+```coq
+Definition homomorphism {A B : kleene_algebra} (h : carrier A -> carrier B) :=
+  forall a1 a2,
+  h (null A) = null B /\
+  h (id A) = id B /\
+  h (a1 [+A] a2) = h (a1) [+B] h (a2) /\
+  h (a1 [;A] a2) = h (a1) [;B] h (a2) /\
+  h (a1 [*A]) = (h a1) [*B].
+```
+Then, consider the mapping
+$$h(A) = \\{ (x, xy) \\,|\\, x \in \Sigma^\ast, y \in A \\}$$
+In Coq, this function is written:
+```coq
+Definition lang_to_rel (A : carrier LKA) : carrier (RKA string) :=
+  fun x x' => exists y, A y /\ append x y = x'.
+```
+This file contains the proof that `lang_to_rel` is a homomorphism. In the general case, this function is an isomorphism between $A$ and its image in $2^{\Sigma^\ast \times \Sigma^\ast}$. However, in this formalization, the co-domain of $h$ is the Kleene Algebra consisting of all relations of $2^{\Sigma^\ast \times \Sigma^\ast}$, so `lang_to_rel` is not surjective. 
+
+### Challenges
 
