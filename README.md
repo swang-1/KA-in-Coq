@@ -1,5 +1,5 @@
 # A Formalization of Kleene Algebras in Coq
-
+GitHub link: [https://github.com/swang-1/KA-in-Coq]
 
 ## Usage
 The project was created using Coq 8.13.2. To build the project, just run `make`.
