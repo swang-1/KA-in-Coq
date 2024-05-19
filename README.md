@@ -1,5 +1,6 @@
 # A Formalization of Kleene Algebras in Coq
 
+
 ## Usage
 The project was created using Coq 8.13.2. To build the project, just run `make`.
 
@@ -122,4 +123,19 @@ Definition lang_to_rel (A : carrier LKA) : carrier (RKA string) :=
 This file contains the proof that `lang_to_rel` is a homomorphism. In the general case, this function is an isomorphism between $A$ and its image in $2^{\Sigma^\ast \times \Sigma^\ast}$. However, in this formalization, the co-domain of $h$ is the Kleene Algebra consisting of all relations of $2^{\Sigma^\ast \times \Sigma^\ast}$, so `lang_to_rel` is not surjective. 
 
 ### Challenges
+Many challenges came with completing the above proofs in Coq. For example, since powers of relations are defined inductively with $R^{n + 1} = R; R^n$, we cannot rewrite $R^n; R$ as $R^{n + 1}$ in Coq without additional proof. This issue required the use of an additional lemma in the proof of the star axioms for relational algebras:
+```coq
+Lemma lang_star_helper : forall (A : carrier LKA) (x y : string) (n : nat),
+  (lang_to_rel (lang_pow A n)) x y <-> (rel_pow (lang_to_rel A) n) x y.
+Proof.
+  ...
+Qed.
+```
+Another challenge arose when proving that `lang_to_rel` is an isomorphism. As explained above, the way that language models and relational models were defined made it so that this function is not surjective. I was also unable to prove injectivity and I am unsure whether it is possible to prove injectivity of `lang_to_rel` constructively.
 
+### Future Work
+One avenue of future work is automation involving this formalization of Kleene algebra. One way of incorporating automation could be to create tactics that streamline equational reasoning. Rewriting equations is currently tedious and unwieldy due to needing to manually apply associativity and commutativity. For example, suppose that we have the assumption `y + z = a` and we want to rewrite the term `x + y + z`. In a pencil-and-paper proof, this rewriting is trivial, but in Coq, we need to first use associativity to rewrite the term as `x + (y + z)`. Hence, specialized tactics for rewriting using the basic semiring axioms and monotonicity properties can greatly streamline the proof-writing process.
+
+At a higher level, there are many structures and properties related to Kleene algebras that are not formalized in this implementation which could account for much of the possible future work on this project. The most obvious candidate for formalization would be incorporating tests, which we could then extend to a guarded command language. This extension would allow us to create examples to demonstrate how KAT can be used to prove program correctness. Other concepts that could be formalized include star continuity, equivalence between Kleene algebras, and many more.
+
+Lastly, the files in this implementation could easily be converted into a tutorial on Kleene algebra in the style of Software Foundations [https://softwarefoundations.cis.upenn.edu/]
