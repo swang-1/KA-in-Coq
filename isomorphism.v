@@ -134,5 +134,4 @@ Proof.
       unfold lang_to_rel in H0. inversion H0 as [s [H1 H2]]. exists s.
       split. exists n. apply H1. apply H2.
 Qed. 
-
       
